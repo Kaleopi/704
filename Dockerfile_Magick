@@ -1,0 +1,8 @@
+FROM alpine:latest
+ARG nom_image
+
+RUN apk add imagemagick --no-cache
+
+CMD magick convert $nom_image.jpg $nom_image.png
+
+ 

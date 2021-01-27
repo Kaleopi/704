@@ -1,0 +1,6 @@
+FROM alpine:latest
+ARG mon_fichier
+
+RUN apk add graphviz --no-cache
+
+CMD dot -Tps -o resultat.ps mon_fichier

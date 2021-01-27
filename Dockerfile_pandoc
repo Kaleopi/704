@@ -1,0 +1,5 @@
+FROM alpine:latest
+
+RUN apk add pandoc --no-cache
+
+CMD pandoc -s Project/outiline.md -o PDF/ProjectOutline.pdf
