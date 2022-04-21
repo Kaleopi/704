@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 import os
 
-email="thomas.gigout@etudiant.univ-reims.fr"
-pseudo="pommepomme"
+email="mail"
+pseudo="pseudo"
 
 def config(email=email,name=pseudo):
     cmd = 'git config --global user.email "'+email+'" '
