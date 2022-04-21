@@ -2,7 +2,7 @@
 import os
 
 email="thomas.gigout@etudiant.univ-reims.fr"
-pseudo="Kaleopi"
+pseudo="pommepomme"
 
 def config(email=email,name=pseudo):
     cmd = 'git config --global user.email "'+email+'" '
